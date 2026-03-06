@@ -1,15 +1,24 @@
 # DevOps CI/CD Pipeline Automation Project
 
 ## Project Workflow
-- [Introduction](https://youtu.be/KJNGXZOfCmo)
-- [Step 1 : Develop multi-module project](https://youtu.be/3BeLrFj4K6U)
-- [Step 2 : Setup Jenkins & SonarQube server](https://youtu.be/ni8IIh4MxVk)
-- [Step 3 : Create Jenkins pipeline](https://youtu.be/XqSSil-mvN8)
-- [Step 4 : ArgoCD Setup](https://youtu.be/e411eouHAbQ)
+1. Developer pushes code to GitHub repository
+2. Jenkins detects the commit and triggers the CI pipeline
+3. The application is built and tested automatically
+4. Docker image is created and pushed to Docker Hub
+5. ArgoCD monitors the repository for new image versions
+6. Kubernetes automatically deploys the updated application
 
 This project demonstrates how I implemented a complete CI/CD pipeline 
 using Jenkins, Docker, and ArgoCD. The pipeline automates build, 
 testing, containerization, and deployment to Kubernetes.
+
+## Tech Stack
+- Jenkins
+- Docker
+- Kubernetes
+- ArgoCD
+- GitHub
+- Spring Boot
 
 ## Technologies Used
  - [Docker](https://docs.docker.com/engine/install/) or [Docker alternative - Colima](https://github.com/abiosoft/colima)
@@ -17,7 +26,6 @@ testing, containerization, and deployment to Kubernetes.
  - [Helm](https://helm.sh/docs/intro/install/)
  - [kubectl](https://kubernetes.io/docs/tasks/tools/)
  - IDE and JDK-21
-
 
 ## CI/CD Pipeline Setup
 - Start Docker.
