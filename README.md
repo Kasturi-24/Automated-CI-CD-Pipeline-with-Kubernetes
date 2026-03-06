@@ -12,16 +12,8 @@ This project demonstrates how I implemented a complete CI/CD pipeline
 using Jenkins, Docker, and ArgoCD. The pipeline automates build, 
 testing, containerization, and deployment to Kubernetes.
 
-## Tech Stack
-- Jenkins
-- Docker
-- Kubernetes
-- ArgoCD
-- GitHub
-- Spring Boot
-
 ## Technologies Used
- - [Docker](https://docs.docker.com/engine/install/) or [Docker alternative - Colima](https://github.com/abiosoft/colima)
+ - [Docker](https://docs.docker.com/engine/install/) 
  - [Minikube](https://minikube.sigs.k8s.io/docs/start/)
  - [Helm](https://helm.sh/docs/intro/install/)
  - [kubectl](https://kubernetes.io/docs/tasks/tools/)
