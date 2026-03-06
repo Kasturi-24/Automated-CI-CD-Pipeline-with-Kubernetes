@@ -1,15 +1,17 @@
-# Build an automated CICD pipeline using Jenkins and ArgoCD 
+# DevOps CI/CD Pipeline Automation Project
 
-## Following is the list of videos for the jenkins CICD tutorials
+## Project Workflow
 - [Introduction](https://youtu.be/KJNGXZOfCmo)
 - [Step 1 : Develop multi-module project](https://youtu.be/3BeLrFj4K6U)
 - [Step 2 : Setup Jenkins & SonarQube server](https://youtu.be/ni8IIh4MxVk)
 - [Step 3 : Create Jenkins pipeline](https://youtu.be/XqSSil-mvN8)
 - [Step 4 : ArgoCD Setup](https://youtu.be/e411eouHAbQ)
 
-This project, demonstrates how to build an automated CI/CD pipeline using Jenkins and ArgoCD for a Spring Boot project. It covers setting up Jenkins for CI, containerizing the app with Docker, and using ArgoCD for automated deployment to Kubernetes.
+This project demonstrates how I implemented a complete CI/CD pipeline 
+using Jenkins, Docker, and ArgoCD. The pipeline automates build, 
+testing, containerization, and deployment to Kubernetes.
 
-### Prerequisites:
+## Technologies Used
  - [Docker](https://docs.docker.com/engine/install/) or [Docker alternative - Colima](https://github.com/abiosoft/colima)
  - [Minikube](https://minikube.sigs.k8s.io/docs/start/)
  - [Helm](https://helm.sh/docs/intro/install/)
@@ -17,7 +19,7 @@ This project, demonstrates how to build an automated CI/CD pipeline using Jenkin
  - IDE and JDK-21
 
 
-## Following is the list of commands and links used in the video.
+## CI/CD Pipeline Setup
 - Start Docker.
 - Build Docker image. (cd into the exchangerates project directory.)
    ```
@@ -96,6 +98,19 @@ This project, demonstrates how to build an automated CI/CD pipeline using Jenkin
    ```
 - Mock API website [link here](https://designer.mocky.io/).
 
+## Features
+- Automated build using Jenkins
+- Docker containerization
+- Kubernetes deployment using ArgoCD
+- Continuous integration and deployment
+- Scalable microservice architecture
+
+## Project Structure
+
+├── Jenkinsfile
+├── Dockerfile
+├── k8s-manifests
+└── application-source
 
 ### Sample JSON Request for the API :
 ```
@@ -111,4 +126,16 @@ This project, demonstrates how to build an automated CI/CD pipeline using Jenkin
 }
 
 ```
-### Note : On the actual production environment, do not commit file with credentials.
+# CI/CD Pipeline Automation using Jenkins & ArgoCD
+
+## Overview
+
+## Technologies Used
+
+## Features
+
+## Project Workflow
+
+## Setup Instructions
+
+## Project Structure
